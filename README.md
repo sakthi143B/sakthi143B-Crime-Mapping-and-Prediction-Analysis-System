@@ -1,0 +1,33 @@
+🔍 Crime Mapping  and Prediction Analysis System
+
+This project is a **Crime mapping and Prediction Analysis System** that helps law enforcement agencies analyze crime data, detect patterns, and predict crime-prone areas. The system is divided into two main parts:
+
+- Part 1: User Interaction Page – A web interface for users to log in, view crime data on maps, and interact with reports.
+- Part 2: Crime Analysis Algorithms – Includes four crime analysis techniques for pattern detection and prediction.
+
+ 🚀 Features
+
+Part 1: User Interaction Page
+- User authentication (Login/Signup)
+- Crime data visualization on an interactive map
+- View, add, and filter crime reports
+- Designed using MySQL, HTML, CSS, and JavaScript**
+
+Part 2: Crime Analysis Algorithms
+1. Repeat Offender & Behavioral Pattern Analysis – Identifies repeat criminals and behavioral trends.
+2. Spatiotemporal Crime Prediction (Time-Series Analysis)– Predicts crime trends over time and location.
+3. DBSCAN (Density-Based Spatial Clustering) – Detects crime hotspots through clustering.
+4. K-Means Clustering Algorithm – Segments crime-prone areas based on geographical data.
+
+🛠️ Technologies Used
+- Frontend:HTML, CSS, JavaScript
+- Backend: PHP (for Part 1), Python (for Part 2)
+- Database: MySQL Workbench
+- Machine Learning:Pandas, Scikit-learn, Folium (for visualization)
+
+ 📌 Installation
+
+🔹 Clone the Repository
+```sh
+git clone https://github.com/your-username/crime-analysis.git
+cd crime-analysis
