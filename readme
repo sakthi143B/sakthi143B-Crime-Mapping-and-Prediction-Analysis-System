@@ -1,0 +1,23 @@
+📊 Spatiotemporal Crime Prediction (Time-Series Analysis)
+
+This module predicts future crime trends based on historical data using **time-series analysis**. By analyzing the relationship between **crime occurrences, time, and location**, the system provides insights into crime patterns and potential hotspots.
+
+ 🚀 Features
+- **Predicts crime trends** using historical data.
+- **Analyzes spatial and temporal factors** affecting crime occurrences.
+- **Generates time-series visualizations** for trend analysis.
+- **Uses machine learning models** to enhance prediction accuracy.
+- **Displays results in graph format** for easy interpretation.
+
+ 🛠️ Technologies Used
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Statsmodels
+- **Database:** MySQL Workbench (crime data storage)
+- **Visualization:** Matplotlib & Seaborn for trend analysis
+
+📌 Installation
+
+### 🔹 Clone the Repository
+```sh
+git clone https://github.com/your-username/crime-analysis.git
+cd crime-analysis/spatiotemporal-crime-prediction
