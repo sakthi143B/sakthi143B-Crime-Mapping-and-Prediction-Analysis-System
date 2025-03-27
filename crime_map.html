@@ -1,0 +1,3886 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67b6e2d48710e679290c1222d28df19c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_67b6e2d48710e679290c1222d28df19c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67b6e2d48710e679290c1222d28df19c = L.map(
+                "map_67b6e2d48710e679290c1222d28df19c",
+                {
+                    center: [11.202094000000002, 77.21172999999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_669fc7dcf0ef8cbc4c167b9968017eab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_669fc7dcf0ef8cbc4c167b9968017eab.addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var marker_07f8c8633f451be1ad1bbcc439fab73e = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_808934eeab11f631e7b2393b9234c860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_665f40e6fee8b8fb9f06a48cf843139e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d6fa31fb250b94ba0cce0170286f0d6 = $(`<div id="html_5d6fa31fb250b94ba0cce0170286f0d6" style="width: 100.0%; height: 100.0%;">Theft at Main Street</div>`)[0];
+                popup_665f40e6fee8b8fb9f06a48cf843139e.setContent(html_5d6fa31fb250b94ba0cce0170286f0d6);
+            
+        
+
+        marker_07f8c8633f451be1ad1bbcc439fab73e.bindPopup(popup_665f40e6fee8b8fb9f06a48cf843139e)
+        ;
+
+        
+    
+    
+                marker_07f8c8633f451be1ad1bbcc439fab73e.setIcon(icon_808934eeab11f631e7b2393b9234c860);
+            
+    
+            var marker_50f75b9361c56ced04a2aab5f0eb2545 = L.marker(
+                [12.2958, 76.6394],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_a042d924c7b2b011c61e14a4372c8d39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe6a4c64c18e8ec01a92dba879fd1272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1aa9a61b17280a785a2e4aeaac415efd = $(`<div id="html_1aa9a61b17280a785a2e4aeaac415efd" style="width: 100.0%; height: 100.0%;">Assault at Park Avenue</div>`)[0];
+                popup_fe6a4c64c18e8ec01a92dba879fd1272.setContent(html_1aa9a61b17280a785a2e4aeaac415efd);
+            
+        
+
+        marker_50f75b9361c56ced04a2aab5f0eb2545.bindPopup(popup_fe6a4c64c18e8ec01a92dba879fd1272)
+        ;
+
+        
+    
+    
+                marker_50f75b9361c56ced04a2aab5f0eb2545.setIcon(icon_a042d924c7b2b011c61e14a4372c8d39);
+            
+    
+            var marker_87558f7cf41da6719b70a6ef4e23e846 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_fd69f67c417cc3ca8da279b3223271e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47c8e7baac0b23f9ff29c02313dfc1e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd0b3784e297707054f8351619101857 = $(`<div id="html_fd0b3784e297707054f8351619101857" style="width: 100.0%; height: 100.0%;">Burglary at Sector 5</div>`)[0];
+                popup_47c8e7baac0b23f9ff29c02313dfc1e3.setContent(html_fd0b3784e297707054f8351619101857);
+            
+        
+
+        marker_87558f7cf41da6719b70a6ef4e23e846.bindPopup(popup_47c8e7baac0b23f9ff29c02313dfc1e3)
+        ;
+
+        
+    
+    
+                marker_87558f7cf41da6719b70a6ef4e23e846.setIcon(icon_fd69f67c417cc3ca8da279b3223271e7);
+            
+    
+            var marker_2f167606f9518b561c99d0fce97aefef = L.marker(
+                [13.0674, 80.2376],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b167cc9e79c2e073964da1b1a833d58f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_beb47c61eb37ce47c414f5435a3ecb1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a216b946914a024c6919e6d394ea84ec = $(`<div id="html_a216b946914a024c6919e6d394ea84ec" style="width: 100.0%; height: 100.0%;">Robbery at Market Road</div>`)[0];
+                popup_beb47c61eb37ce47c414f5435a3ecb1b.setContent(html_a216b946914a024c6919e6d394ea84ec);
+            
+        
+
+        marker_2f167606f9518b561c99d0fce97aefef.bindPopup(popup_beb47c61eb37ce47c414f5435a3ecb1b)
+        ;
+
+        
+    
+    
+                marker_2f167606f9518b561c99d0fce97aefef.setIcon(icon_b167cc9e79c2e073964da1b1a833d58f);
+            
+    
+            var marker_1b34cbf8e89e60a2975dccbaad59459d = L.marker(
+                [12.9121, 77.6446],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_2dfe7d3ac0c87d340341545639bd8693 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a863f0b3e251224ab9e683ffd68f5be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9025ea3002e2c82cd939c3d790519d6b = $(`<div id="html_9025ea3002e2c82cd939c3d790519d6b" style="width: 100.0%; height: 100.0%;">Vandalism at City Mall</div>`)[0];
+                popup_1a863f0b3e251224ab9e683ffd68f5be.setContent(html_9025ea3002e2c82cd939c3d790519d6b);
+            
+        
+
+        marker_1b34cbf8e89e60a2975dccbaad59459d.bindPopup(popup_1a863f0b3e251224ab9e683ffd68f5be)
+        ;
+
+        
+    
+    
+                marker_1b34cbf8e89e60a2975dccbaad59459d.setIcon(icon_2dfe7d3ac0c87d340341545639bd8693);
+            
+    
+            var marker_37c299cfdaf6a786dde26ef265587bb0 = L.marker(
+                [13.0418, 80.2336],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_ef7fda2c6f856be00225cfe750ade64d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13e8cbac27e4cf4256de5dc465f85b65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eae52299f339fb810fef33be0cefa68 = $(`<div id="html_6eae52299f339fb810fef33be0cefa68" style="width: 100.0%; height: 100.0%;">Theft at T. Nagar, Chennai</div>`)[0];
+                popup_13e8cbac27e4cf4256de5dc465f85b65.setContent(html_6eae52299f339fb810fef33be0cefa68);
+            
+        
+
+        marker_37c299cfdaf6a786dde26ef265587bb0.bindPopup(popup_13e8cbac27e4cf4256de5dc465f85b65)
+        ;
+
+        
+    
+    
+                marker_37c299cfdaf6a786dde26ef265587bb0.setIcon(icon_ef7fda2c6f856be00225cfe750ade64d);
+            
+    
+            var marker_af8d489f62daeb17ab46aa9444163269 = L.marker(
+                [13.0496, 80.2824],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_af6b0df6d9e64eb3f988805f327c451c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85c7285e4d0b618bef575462c8d18e59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9807df7288fb1b661c2375bddb67e670 = $(`<div id="html_9807df7288fb1b661c2375bddb67e670" style="width: 100.0%; height: 100.0%;">Robbery at Marina Beach, Chennai</div>`)[0];
+                popup_85c7285e4d0b618bef575462c8d18e59.setContent(html_9807df7288fb1b661c2375bddb67e670);
+            
+        
+
+        marker_af8d489f62daeb17ab46aa9444163269.bindPopup(popup_85c7285e4d0b618bef575462c8d18e59)
+        ;
+
+        
+    
+    
+                marker_af8d489f62daeb17ab46aa9444163269.setIcon(icon_af6b0df6d9e64eb3f988805f327c451c);
+            
+    
+            var marker_5c420136ee8374e0fcc3cdda23a62a6d = L.marker(
+                [13.007, 80.2209],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_c90f4819a06f6e5a3a7aec13348c64cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f70b26c234f90caeba12056df51add3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21e21439a0b1cd8f599aa131360cd1f9 = $(`<div id="html_21e21439a0b1cd8f599aa131360cd1f9" style="width: 100.0%; height: 100.0%;">Assault at Guindy, Chennai</div>`)[0];
+                popup_3f70b26c234f90caeba12056df51add3.setContent(html_21e21439a0b1cd8f599aa131360cd1f9);
+            
+        
+
+        marker_5c420136ee8374e0fcc3cdda23a62a6d.bindPopup(popup_3f70b26c234f90caeba12056df51add3)
+        ;
+
+        
+    
+    
+                marker_5c420136ee8374e0fcc3cdda23a62a6d.setIcon(icon_c90f4819a06f6e5a3a7aec13348c64cf);
+            
+    
+            var marker_28406c889036c61a7c8f4e9e60b74ff7 = L.marker(
+                [12.9822, 80.2183],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_42820066e9cd59e6e941eca435c516c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6090bb8b3538bc744c4c9bcadad2e93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14a6dfd64e4cec114e7ca31d5037f4d0 = $(`<div id="html_14a6dfd64e4cec114e7ca31d5037f4d0" style="width: 100.0%; height: 100.0%;">Burglary at Velachery, Chennai</div>`)[0];
+                popup_f6090bb8b3538bc744c4c9bcadad2e93.setContent(html_14a6dfd64e4cec114e7ca31d5037f4d0);
+            
+        
+
+        marker_28406c889036c61a7c8f4e9e60b74ff7.bindPopup(popup_f6090bb8b3538bc744c4c9bcadad2e93)
+        ;
+
+        
+    
+    
+                marker_28406c889036c61a7c8f4e9e60b74ff7.setIcon(icon_42820066e9cd59e6e941eca435c516c5);
+            
+    
+            var marker_c7eb502924749092fbc36687d3148fd2 = L.marker(
+                [13.0853, 80.2103],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_4a117165d419315f1c695a5d7153810c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3539cab2cc01a70a3581294b008b1d6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4b36aa47d1d5a153a31e7ceb430d5db = $(`<div id="html_a4b36aa47d1d5a153a31e7ceb430d5db" style="width: 100.0%; height: 100.0%;">Vandalism at Anna Nagar, Chennai</div>`)[0];
+                popup_3539cab2cc01a70a3581294b008b1d6d.setContent(html_a4b36aa47d1d5a153a31e7ceb430d5db);
+            
+        
+
+        marker_c7eb502924749092fbc36687d3148fd2.bindPopup(popup_3539cab2cc01a70a3581294b008b1d6d)
+        ;
+
+        
+    
+    
+                marker_c7eb502924749092fbc36687d3148fd2.setIcon(icon_4a117165d419315f1c695a5d7153810c);
+            
+    
+            var marker_44d0785cc14919cbea9804e4f9f63668 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_a4da38c24599d9f794bbcb8189586fc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c0fcb0d881010af0efdcaae42d328a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38d02b0728bbb2f6978ed54e40e4a204 = $(`<div id="html_38d02b0728bbb2f6978ed54e40e4a204" style="width: 100.0%; height: 100.0%;">Robbery at Gandhipuram, Coimbatore</div>`)[0];
+                popup_7c0fcb0d881010af0efdcaae42d328a3.setContent(html_38d02b0728bbb2f6978ed54e40e4a204);
+            
+        
+
+        marker_44d0785cc14919cbea9804e4f9f63668.bindPopup(popup_7c0fcb0d881010af0efdcaae42d328a3)
+        ;
+
+        
+    
+    
+                marker_44d0785cc14919cbea9804e4f9f63668.setIcon(icon_a4da38c24599d9f794bbcb8189586fc9);
+            
+    
+            var marker_44a7058116853722e96dc51c063baee5 = L.marker(
+                [11.0055, 76.962],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_e47a2b126ff76247502c0139128009a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_539fbde94a62219789bdad9dc776b50b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a59639d9f8c7f66c3d21aaf0f2f5c15 = $(`<div id="html_0a59639d9f8c7f66c3d21aaf0f2f5c15" style="width: 100.0%; height: 100.0%;">Theft at RS Puram, Coimbatore</div>`)[0];
+                popup_539fbde94a62219789bdad9dc776b50b.setContent(html_0a59639d9f8c7f66c3d21aaf0f2f5c15);
+            
+        
+
+        marker_44a7058116853722e96dc51c063baee5.bindPopup(popup_539fbde94a62219789bdad9dc776b50b)
+        ;
+
+        
+    
+    
+                marker_44a7058116853722e96dc51c063baee5.setIcon(icon_e47a2b126ff76247502c0139128009a3);
+            
+    
+            var marker_963edb4bd6ba6ae89f53c4b2fd86ceea = L.marker(
+                [11.0301, 77.0376],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b2f9cc6d262751e6b38b44c2764d915f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5bc70bf8d36b4747bb8e7fd3e0b87fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f93d2265fff9538bff1f1a378a731fb8 = $(`<div id="html_f93d2265fff9538bff1f1a378a731fb8" style="width: 100.0%; height: 100.0%;">Assault at Peelamedu, Coimbatore</div>`)[0];
+                popup_a5bc70bf8d36b4747bb8e7fd3e0b87fa.setContent(html_f93d2265fff9538bff1f1a378a731fb8);
+            
+        
+
+        marker_963edb4bd6ba6ae89f53c4b2fd86ceea.bindPopup(popup_a5bc70bf8d36b4747bb8e7fd3e0b87fa)
+        ;
+
+        
+    
+    
+                marker_963edb4bd6ba6ae89f53c4b2fd86ceea.setIcon(icon_b2f9cc6d262751e6b38b44c2764d915f);
+            
+    
+            var marker_d127e33c24b2fd27ce6b90bd46c4dba9 = L.marker(
+                [10.9965, 76.9643],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b505d4bfff31077f2d26d1d1df6da05d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03cd6d0b94d000fe3595551633d0d370 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f9ae3908aa54a6bb44010ef0c63228d = $(`<div id="html_2f9ae3908aa54a6bb44010ef0c63228d" style="width: 100.0%; height: 100.0%;">Burglary at Ukkadam, Coimbatore</div>`)[0];
+                popup_03cd6d0b94d000fe3595551633d0d370.setContent(html_2f9ae3908aa54a6bb44010ef0c63228d);
+            
+        
+
+        marker_d127e33c24b2fd27ce6b90bd46c4dba9.bindPopup(popup_03cd6d0b94d000fe3595551633d0d370)
+        ;
+
+        
+    
+    
+                marker_d127e33c24b2fd27ce6b90bd46c4dba9.setIcon(icon_b505d4bfff31077f2d26d1d1df6da05d);
+            
+    
+            var marker_cdfd0cd3978e8dc88bc05c6b6f330530 = L.marker(
+                [11.0208, 76.9496],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_716759b8b3e98534d92ccfe04ab8ff8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d053217da478a4965084252f57e2097b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e9d17c18a0d7d98a1ffa2b6aff0cfbe = $(`<div id="html_1e9d17c18a0d7d98a1ffa2b6aff0cfbe" style="width: 100.0%; height: 100.0%;">Vandalism at Saibaba Colony, Coimbatore</div>`)[0];
+                popup_d053217da478a4965084252f57e2097b.setContent(html_1e9d17c18a0d7d98a1ffa2b6aff0cfbe);
+            
+        
+
+        marker_cdfd0cd3978e8dc88bc05c6b6f330530.bindPopup(popup_d053217da478a4965084252f57e2097b)
+        ;
+
+        
+    
+    
+                marker_cdfd0cd3978e8dc88bc05c6b6f330530.setIcon(icon_716759b8b3e98534d92ccfe04ab8ff8e);
+            
+    
+            var marker_53fced3a782b56d237c6e79283c184ae = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_ff1bc6fececefb56ffe8125b42985719 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbe431aea6d0afb0421a94df27ed31d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f83335cf604c2d1339117e6af88eccbb = $(`<div id="html_f83335cf604c2d1339117e6af88eccbb" style="width: 100.0%; height: 100.0%;">Burglary at Gandhipuram, Coimbatore</div>`)[0];
+                popup_dbe431aea6d0afb0421a94df27ed31d6.setContent(html_f83335cf604c2d1339117e6af88eccbb);
+            
+        
+
+        marker_53fced3a782b56d237c6e79283c184ae.bindPopup(popup_dbe431aea6d0afb0421a94df27ed31d6)
+        ;
+
+        
+    
+    
+                marker_53fced3a782b56d237c6e79283c184ae.setIcon(icon_ff1bc6fececefb56ffe8125b42985719);
+            
+    
+            var marker_3d1e6a099a7558425466ef0a37415454 = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_15231264c28d914e34b47e1ec241be7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78d881d6d62ee8da13e604f9b90d7a63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f09f3d3a8e18382ce5163fa70610c5e = $(`<div id="html_5f09f3d3a8e18382ce5163fa70610c5e" style="width: 100.0%; height: 100.0%;">Theft at RS Puram, Coimbatore</div>`)[0];
+                popup_78d881d6d62ee8da13e604f9b90d7a63.setContent(html_5f09f3d3a8e18382ce5163fa70610c5e);
+            
+        
+
+        marker_3d1e6a099a7558425466ef0a37415454.bindPopup(popup_78d881d6d62ee8da13e604f9b90d7a63)
+        ;
+
+        
+    
+    
+                marker_3d1e6a099a7558425466ef0a37415454.setIcon(icon_15231264c28d914e34b47e1ec241be7b);
+            
+    
+            var marker_90d76af3975544b790d2ed88bd1fa283 = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_40c0c1ba8e03f6f9692ed1887a00cfa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_997780f355d34c331a225f4a64fbcf61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2efd430818e97349c587f831acc4477f = $(`<div id="html_2efd430818e97349c587f831acc4477f" style="width: 100.0%; height: 100.0%;">Assault at Ukkadam, Coimbatore</div>`)[0];
+                popup_997780f355d34c331a225f4a64fbcf61.setContent(html_2efd430818e97349c587f831acc4477f);
+            
+        
+
+        marker_90d76af3975544b790d2ed88bd1fa283.bindPopup(popup_997780f355d34c331a225f4a64fbcf61)
+        ;
+
+        
+    
+    
+                marker_90d76af3975544b790d2ed88bd1fa283.setIcon(icon_40c0c1ba8e03f6f9692ed1887a00cfa0);
+            
+    
+            var marker_fb889129eacaa97b255d491da05baab4 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_446f36d2a881e6b63044798609231772 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc41e37da7fa9cf86afddf232d21ffc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42fa610e465ef0ad00decff5d611d323 = $(`<div id="html_42fa610e465ef0ad00decff5d611d323" style="width: 100.0%; height: 100.0%;">Robbery at Peelamedu, Coimbatore</div>`)[0];
+                popup_dc41e37da7fa9cf86afddf232d21ffc7.setContent(html_42fa610e465ef0ad00decff5d611d323);
+            
+        
+
+        marker_fb889129eacaa97b255d491da05baab4.bindPopup(popup_dc41e37da7fa9cf86afddf232d21ffc7)
+        ;
+
+        
+    
+    
+                marker_fb889129eacaa97b255d491da05baab4.setIcon(icon_446f36d2a881e6b63044798609231772);
+            
+    
+            var marker_6fb900f9964b845cb2fd91d1888eae5c = L.marker(
+                [11.0235, 76.9456],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_5a98a9425b2795e871c54b41744cedad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dabbaf7443107903acb193cece9ce7dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86f19cbadbbd236508f3efc93206af31 = $(`<div id="html_86f19cbadbbd236508f3efc93206af31" style="width: 100.0%; height: 100.0%;">Vandalism at Saibaba Colony, Coimbatore</div>`)[0];
+                popup_dabbaf7443107903acb193cece9ce7dd.setContent(html_86f19cbadbbd236508f3efc93206af31);
+            
+        
+
+        marker_6fb900f9964b845cb2fd91d1888eae5c.bindPopup(popup_dabbaf7443107903acb193cece9ce7dd)
+        ;
+
+        
+    
+    
+                marker_6fb900f9964b845cb2fd91d1888eae5c.setIcon(icon_5a98a9425b2795e871c54b41744cedad);
+            
+    
+            var marker_e241244ad8d1bcb1e976962f7562f886 = L.marker(
+                [10.9533, 76.9768],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_1c95ae22a55b06c3ca0649e23d61d12c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12e5c91be72ed791c6e414e26e3f0b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f74c0446f56e384cb5e48168e313d17 = $(`<div id="html_6f74c0446f56e384cb5e48168e313d17" style="width: 100.0%; height: 100.0%;">Burglary at Kuniamuthur, Coimbatore</div>`)[0];
+                popup_12e5c91be72ed791c6e414e26e3f0b1d.setContent(html_6f74c0446f56e384cb5e48168e313d17);
+            
+        
+
+        marker_e241244ad8d1bcb1e976962f7562f886.bindPopup(popup_12e5c91be72ed791c6e414e26e3f0b1d)
+        ;
+
+        
+    
+    
+                marker_e241244ad8d1bcb1e976962f7562f886.setIcon(icon_1c95ae22a55b06c3ca0649e23d61d12c);
+            
+    
+            var marker_25afb658aff77727b3b017441e896ea9 = L.marker(
+                [11.0039, 76.9812],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_01a0867f6064c77058b7a17ed820d8aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ed17b8cff7c8265923f6120aca346f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bd42c20e048c848ad6ccc438a1820cb = $(`<div id="html_0bd42c20e048c848ad6ccc438a1820cb" style="width: 100.0%; height: 100.0%;">Theft at Sungam, Coimbatore</div>`)[0];
+                popup_3ed17b8cff7c8265923f6120aca346f5.setContent(html_0bd42c20e048c848ad6ccc438a1820cb);
+            
+        
+
+        marker_25afb658aff77727b3b017441e896ea9.bindPopup(popup_3ed17b8cff7c8265923f6120aca346f5)
+        ;
+
+        
+    
+    
+                marker_25afb658aff77727b3b017441e896ea9.setIcon(icon_01a0867f6064c77058b7a17ed820d8aa);
+            
+    
+            var marker_147de8bd617812a1f4540e4f450b4e29 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7c92da44e2dbb0ce89e3a46a65d3e8eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9fe6713643443ae0ddd98c4d0b9f3b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c783c3128eec14538d958f617efeb22e = $(`<div id="html_c783c3128eec14538d958f617efeb22e" style="width: 100.0%; height: 100.0%;">Assault at Singanallur, Coimbatore</div>`)[0];
+                popup_c9fe6713643443ae0ddd98c4d0b9f3b1.setContent(html_c783c3128eec14538d958f617efeb22e);
+            
+        
+
+        marker_147de8bd617812a1f4540e4f450b4e29.bindPopup(popup_c9fe6713643443ae0ddd98c4d0b9f3b1)
+        ;
+
+        
+    
+    
+                marker_147de8bd617812a1f4540e4f450b4e29.setIcon(icon_7c92da44e2dbb0ce89e3a46a65d3e8eb);
+            
+    
+            var marker_3c1bd6816ca11e58a50ebcef7a5132ae = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_10cbe8d7be575e169882a6f34be53247 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0e9f6e0fd345f7b876bce59beb8d68e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_314956aa1eb5c4dc28559ae736d35524 = $(`<div id="html_314956aa1eb5c4dc28559ae736d35524" style="width: 100.0%; height: 100.0%;">Drug Possession at Podanur, Coimbatore</div>`)[0];
+                popup_c0e9f6e0fd345f7b876bce59beb8d68e.setContent(html_314956aa1eb5c4dc28559ae736d35524);
+            
+        
+
+        marker_3c1bd6816ca11e58a50ebcef7a5132ae.bindPopup(popup_c0e9f6e0fd345f7b876bce59beb8d68e)
+        ;
+
+        
+    
+    
+                marker_3c1bd6816ca11e58a50ebcef7a5132ae.setIcon(icon_10cbe8d7be575e169882a6f34be53247);
+            
+    
+            var marker_b98f52ee01e18da6d22286c0c8d49f8b = L.marker(
+                [11.0855, 76.9517],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_dafc70f090abf6abec8aefd91aa60bba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1bec83222d886fb4794450720d8f199 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad05085c85e6b710aa5be1521f9774c8 = $(`<div id="html_ad05085c85e6b710aa5be1521f9774c8" style="width: 100.0%; height: 100.0%;">Kidnapping at Thudiyalur, Coimbatore</div>`)[0];
+                popup_a1bec83222d886fb4794450720d8f199.setContent(html_ad05085c85e6b710aa5be1521f9774c8);
+            
+        
+
+        marker_b98f52ee01e18da6d22286c0c8d49f8b.bindPopup(popup_a1bec83222d886fb4794450720d8f199)
+        ;
+
+        
+    
+    
+                marker_b98f52ee01e18da6d22286c0c8d49f8b.setIcon(icon_dafc70f090abf6abec8aefd91aa60bba);
+            
+    
+            var marker_925b14d76b7d7fb174fb66f6456d6475 = L.marker(
+                [11.0322, 76.9003],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_aefedc65f534756c1b4215d9bc307598 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87ff23aeda7dd566064ecc465b5866e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14413d05f37d53c3765b4dc1a0213020 = $(`<div id="html_14413d05f37d53c3765b4dc1a0213020" style="width: 100.0%; height: 100.0%;">Murder at Vadavalli, Coimbatore</div>`)[0];
+                popup_87ff23aeda7dd566064ecc465b5866e7.setContent(html_14413d05f37d53c3765b4dc1a0213020);
+            
+        
+
+        marker_925b14d76b7d7fb174fb66f6456d6475.bindPopup(popup_87ff23aeda7dd566064ecc465b5866e7)
+        ;
+
+        
+    
+    
+                marker_925b14d76b7d7fb174fb66f6456d6475.setIcon(icon_aefedc65f534756c1b4215d9bc307598);
+            
+    
+            var marker_dfcae1dad293fe18669455378a5e3cae = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_133dcc4bb5e38234e8e161d9c70ab2cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_627594f5a28eb6f4b55e8bb046a931b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fba6c848e5341bf1752d99dbd8aed07c = $(`<div id="html_fba6c848e5341bf1752d99dbd8aed07c" style="width: 100.0%; height: 100.0%;">Burglary at Saravanampatti, Coimbatore</div>`)[0];
+                popup_627594f5a28eb6f4b55e8bb046a931b6.setContent(html_fba6c848e5341bf1752d99dbd8aed07c);
+            
+        
+
+        marker_dfcae1dad293fe18669455378a5e3cae.bindPopup(popup_627594f5a28eb6f4b55e8bb046a931b6)
+        ;
+
+        
+    
+    
+                marker_dfcae1dad293fe18669455378a5e3cae.setIcon(icon_133dcc4bb5e38234e8e161d9c70ab2cb);
+            
+    
+            var marker_38bbc7075e0a2ca6073e5746c7f3f878 = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_65c36669597e60d9712b944e4cf7a7f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2babd9e72d07f4da1da5baca4a0db040 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66a59436a52c25ea1f124e2e57117c6b = $(`<div id="html_66a59436a52c25ea1f124e2e57117c6b" style="width: 100.0%; height: 100.0%;">Cybercrime at Race Course, Coimbatore</div>`)[0];
+                popup_2babd9e72d07f4da1da5baca4a0db040.setContent(html_66a59436a52c25ea1f124e2e57117c6b);
+            
+        
+
+        marker_38bbc7075e0a2ca6073e5746c7f3f878.bindPopup(popup_2babd9e72d07f4da1da5baca4a0db040)
+        ;
+
+        
+    
+    
+                marker_38bbc7075e0a2ca6073e5746c7f3f878.setIcon(icon_65c36669597e60d9712b944e4cf7a7f0);
+            
+    
+            var marker_2f19a3aa64e86d89b56e46fb933b4f29 = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_d55c89b0ef35bdea60c6631e2899679b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f21d6d340143a1878982796afab9357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13724f58bd052c1642991e9ec769e5ae = $(`<div id="html_13724f58bd052c1642991e9ec769e5ae" style="width: 100.0%; height: 100.0%;">Arson at Kovaipudur, Coimbatore</div>`)[0];
+                popup_1f21d6d340143a1878982796afab9357.setContent(html_13724f58bd052c1642991e9ec769e5ae);
+            
+        
+
+        marker_2f19a3aa64e86d89b56e46fb933b4f29.bindPopup(popup_1f21d6d340143a1878982796afab9357)
+        ;
+
+        
+    
+    
+                marker_2f19a3aa64e86d89b56e46fb933b4f29.setIcon(icon_d55c89b0ef35bdea60c6631e2899679b);
+            
+    
+            var marker_df168b1632c6db70e7264373a2347a25 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_4a89f1136de89626423bcdf7b0986046 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f8e423520520d79afdb7267966ce75f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c205ca14d0efddda190593389cf4b8e = $(`<div id="html_0c205ca14d0efddda190593389cf4b8e" style="width: 100.0%; height: 100.0%;">Theft at Peelamedu, Coimbatore</div>`)[0];
+                popup_9f8e423520520d79afdb7267966ce75f.setContent(html_0c205ca14d0efddda190593389cf4b8e);
+            
+        
+
+        marker_df168b1632c6db70e7264373a2347a25.bindPopup(popup_9f8e423520520d79afdb7267966ce75f)
+        ;
+
+        
+    
+    
+                marker_df168b1632c6db70e7264373a2347a25.setIcon(icon_4a89f1136de89626423bcdf7b0986046);
+            
+    
+            var marker_add1f365548b0795a990cad516626400 = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_90f18fb4efcd067d3832bc00f76e135f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc7867792926a8434e2f8fd69bcf1777 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c88c8ae6e133fca5fca11890668174fc = $(`<div id="html_c88c8ae6e133fca5fca11890668174fc" style="width: 100.0%; height: 100.0%;">Robbery at RS Puram, Coimbatore</div>`)[0];
+                popup_bc7867792926a8434e2f8fd69bcf1777.setContent(html_c88c8ae6e133fca5fca11890668174fc);
+            
+        
+
+        marker_add1f365548b0795a990cad516626400.bindPopup(popup_bc7867792926a8434e2f8fd69bcf1777)
+        ;
+
+        
+    
+    
+                marker_add1f365548b0795a990cad516626400.setIcon(icon_90f18fb4efcd067d3832bc00f76e135f);
+            
+    
+            var marker_3cbb11a00a14fa1d922278733b2d5c11 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_36ee95a48489b23b1345d1f411d5d084 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c190959646af0bfc6b3d66fc08d85e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8442927b0203ce60e1661f31b8ac09e6 = $(`<div id="html_8442927b0203ce60e1661f31b8ac09e6" style="width: 100.0%; height: 100.0%;">Fraud at Singanallur, Coimbatore</div>`)[0];
+                popup_5c190959646af0bfc6b3d66fc08d85e3.setContent(html_8442927b0203ce60e1661f31b8ac09e6);
+            
+        
+
+        marker_3cbb11a00a14fa1d922278733b2d5c11.bindPopup(popup_5c190959646af0bfc6b3d66fc08d85e3)
+        ;
+
+        
+    
+    
+                marker_3cbb11a00a14fa1d922278733b2d5c11.setIcon(icon_36ee95a48489b23b1345d1f411d5d084);
+            
+    
+            var marker_04f5d2dbf121e0881ce964ebeed6d501 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7c25bf6ac567790e8f12088aa5cb7305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb2b9b675e466a902b8e239405cd4461 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c69de168cca9061a21dfc213c38e38f8 = $(`<div id="html_c69de168cca9061a21dfc213c38e38f8" style="width: 100.0%; height: 100.0%;">Car Theft at Gandhipuram, Coimbatore</div>`)[0];
+                popup_fb2b9b675e466a902b8e239405cd4461.setContent(html_c69de168cca9061a21dfc213c38e38f8);
+            
+        
+
+        marker_04f5d2dbf121e0881ce964ebeed6d501.bindPopup(popup_fb2b9b675e466a902b8e239405cd4461)
+        ;
+
+        
+    
+    
+                marker_04f5d2dbf121e0881ce964ebeed6d501.setIcon(icon_7c25bf6ac567790e8f12088aa5cb7305);
+            
+    
+            var marker_67cba215403f1c3c39269685cfcce5cf = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_00366a71e1facd7c413b8a6567a1f326 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cba4a1e58ceb3897a25be95c7fc2aef4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b406a1a2d9167674af4344e836fc764d = $(`<div id="html_b406a1a2d9167674af4344e836fc764d" style="width: 100.0%; height: 100.0%;">Domestic Violence at Ukkadam, Coimbatore</div>`)[0];
+                popup_cba4a1e58ceb3897a25be95c7fc2aef4.setContent(html_b406a1a2d9167674af4344e836fc764d);
+            
+        
+
+        marker_67cba215403f1c3c39269685cfcce5cf.bindPopup(popup_cba4a1e58ceb3897a25be95c7fc2aef4)
+        ;
+
+        
+    
+    
+                marker_67cba215403f1c3c39269685cfcce5cf.setIcon(icon_00366a71e1facd7c413b8a6567a1f326);
+            
+    
+            var marker_c4e7ab0ee615336b1a23d29daef5d398 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_a335c3e80e55d0df8f898ef95cfdf1b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b05a8d95caec0e558580d9e59ec5ff9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f79078ca3143ec4154f7546555b7742f = $(`<div id="html_f79078ca3143ec4154f7546555b7742f" style="width: 100.0%; height: 100.0%;">Hacking at Peelamedu, Coimbatore</div>`)[0];
+                popup_b05a8d95caec0e558580d9e59ec5ff9e.setContent(html_f79078ca3143ec4154f7546555b7742f);
+            
+        
+
+        marker_c4e7ab0ee615336b1a23d29daef5d398.bindPopup(popup_b05a8d95caec0e558580d9e59ec5ff9e)
+        ;
+
+        
+    
+    
+                marker_c4e7ab0ee615336b1a23d29daef5d398.setIcon(icon_a335c3e80e55d0df8f898ef95cfdf1b9);
+            
+    
+            var marker_cd8bda169220f5223234813460fceedf = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_02853edd1764f5063a161e6b44772248 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_128d36afcad1c380584445469a3784d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c6490252fb3e7bc2d323e4f36f5e388 = $(`<div id="html_9c6490252fb3e7bc2d323e4f36f5e388" style="width: 100.0%; height: 100.0%;">Forgery at RS Puram, Coimbatore</div>`)[0];
+                popup_128d36afcad1c380584445469a3784d2.setContent(html_9c6490252fb3e7bc2d323e4f36f5e388);
+            
+        
+
+        marker_cd8bda169220f5223234813460fceedf.bindPopup(popup_128d36afcad1c380584445469a3784d2)
+        ;
+
+        
+    
+    
+                marker_cd8bda169220f5223234813460fceedf.setIcon(icon_02853edd1764f5063a161e6b44772248);
+            
+    
+            var marker_850837e73eaff8f781a14889414b16d3 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_9ea0899efb06a0daf11974d255824fad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8aae6d0ddc76b2ebd6ee7cf32a843699 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23ee1b0237ad9ceae9e3fbf2983cab3d = $(`<div id="html_23ee1b0237ad9ceae9e3fbf2983cab3d" style="width: 100.0%; height: 100.0%;">Illegal Gambling at Gandhipuram, Coimbatore</div>`)[0];
+                popup_8aae6d0ddc76b2ebd6ee7cf32a843699.setContent(html_23ee1b0237ad9ceae9e3fbf2983cab3d);
+            
+        
+
+        marker_850837e73eaff8f781a14889414b16d3.bindPopup(popup_8aae6d0ddc76b2ebd6ee7cf32a843699)
+        ;
+
+        
+    
+    
+                marker_850837e73eaff8f781a14889414b16d3.setIcon(icon_9ea0899efb06a0daf11974d255824fad);
+            
+    
+            var marker_0a7939cd41b63c94719f2224994c524a = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_2147f7a6f0f87e3b9d379fcb720042c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46288f0475d363d774f807f9a3d15226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc950856d0c7284ab9ff3570144df63b = $(`<div id="html_cc950856d0c7284ab9ff3570144df63b" style="width: 100.0%; height: 100.0%;">Vandalism at Singanallur, Coimbatore</div>`)[0];
+                popup_46288f0475d363d774f807f9a3d15226.setContent(html_cc950856d0c7284ab9ff3570144df63b);
+            
+        
+
+        marker_0a7939cd41b63c94719f2224994c524a.bindPopup(popup_46288f0475d363d774f807f9a3d15226)
+        ;
+
+        
+    
+    
+                marker_0a7939cd41b63c94719f2224994c524a.setIcon(icon_2147f7a6f0f87e3b9d379fcb720042c2);
+            
+    
+            var marker_a295ffebd384855f03b1061fe068a4d3 = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7ace8d9de5dac58a9f7d0928b9a6bf85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a75e20b32d4f8230664e4b4c4743d290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e575b84c8ed0acfb3acd0db2940cf17 = $(`<div id="html_5e575b84c8ed0acfb3acd0db2940cf17" style="width: 100.0%; height: 100.0%;">Arson at Podanur, Coimbatore</div>`)[0];
+                popup_a75e20b32d4f8230664e4b4c4743d290.setContent(html_5e575b84c8ed0acfb3acd0db2940cf17);
+            
+        
+
+        marker_a295ffebd384855f03b1061fe068a4d3.bindPopup(popup_a75e20b32d4f8230664e4b4c4743d290)
+        ;
+
+        
+    
+    
+                marker_a295ffebd384855f03b1061fe068a4d3.setIcon(icon_7ace8d9de5dac58a9f7d0928b9a6bf85);
+            
+    
+            var marker_2b83330d3308dedee4b507c3c62745bb = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_4cc600037d581d2ddd8b32b59489f34b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e43a9c5d540bfa5c1bb53a606618314a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b56e79f933b4ebb728273130e3721e6 = $(`<div id="html_6b56e79f933b4ebb728273130e3721e6" style="width: 100.0%; height: 100.0%;">Drunk Driving at Race Course, Coimbatore</div>`)[0];
+                popup_e43a9c5d540bfa5c1bb53a606618314a.setContent(html_6b56e79f933b4ebb728273130e3721e6);
+            
+        
+
+        marker_2b83330d3308dedee4b507c3c62745bb.bindPopup(popup_e43a9c5d540bfa5c1bb53a606618314a)
+        ;
+
+        
+    
+    
+                marker_2b83330d3308dedee4b507c3c62745bb.setIcon(icon_4cc600037d581d2ddd8b32b59489f34b);
+            
+    
+            var marker_deb83add544c64b0794f76b3a950872c = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_5f3dd4ce8fa8e960bcd6d4bc4ae2eb3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3c85af871469a2cbcecd13fc680f845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b09ac1fe74f3ef607184889bf80b17d6 = $(`<div id="html_b09ac1fe74f3ef607184889bf80b17d6" style="width: 100.0%; height: 100.0%;">Assault at Saravanampatti, Coimbatore</div>`)[0];
+                popup_e3c85af871469a2cbcecd13fc680f845.setContent(html_b09ac1fe74f3ef607184889bf80b17d6);
+            
+        
+
+        marker_deb83add544c64b0794f76b3a950872c.bindPopup(popup_e3c85af871469a2cbcecd13fc680f845)
+        ;
+
+        
+    
+    
+                marker_deb83add544c64b0794f76b3a950872c.setIcon(icon_5f3dd4ce8fa8e960bcd6d4bc4ae2eb3c);
+            
+    
+            var marker_391346879ec97b5592d83503ed42d743 = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_6407d74d7c2d03290f95dd734e3d4931 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15a57afedd59db2cc882e77daa40e5ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e2070697b6455b0f87893c2d080996 = $(`<div id="html_56e2070697b6455b0f87893c2d080996" style="width: 100.0%; height: 100.0%;">Kidnapping at Kovaipudur, Coimbatore</div>`)[0];
+                popup_15a57afedd59db2cc882e77daa40e5ea.setContent(html_56e2070697b6455b0f87893c2d080996);
+            
+        
+
+        marker_391346879ec97b5592d83503ed42d743.bindPopup(popup_15a57afedd59db2cc882e77daa40e5ea)
+        ;
+
+        
+    
+    
+                marker_391346879ec97b5592d83503ed42d743.setIcon(icon_6407d74d7c2d03290f95dd734e3d4931);
+            
+    
+            var marker_de8d9f30b885f1676fafce0b076b16a5 = L.marker(
+                [11.0322, 76.9003],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_67b0ffc6e4a5d610c61c9f400bc1e3c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c23272bf027afc89fddbb311638d6dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59f16c7684443db95b80d8f8d1eee339 = $(`<div id="html_59f16c7684443db95b80d8f8d1eee339" style="width: 100.0%; height: 100.0%;">Smuggling at Vadavalli, Coimbatore</div>`)[0];
+                popup_5c23272bf027afc89fddbb311638d6dd.setContent(html_59f16c7684443db95b80d8f8d1eee339);
+            
+        
+
+        marker_de8d9f30b885f1676fafce0b076b16a5.bindPopup(popup_5c23272bf027afc89fddbb311638d6dd)
+        ;
+
+        
+    
+    
+                marker_de8d9f30b885f1676fafce0b076b16a5.setIcon(icon_67b0ffc6e4a5d610c61c9f400bc1e3c6);
+            
+    
+            var marker_ecc0782642610b36c6944787a87ac315 = L.marker(
+                [10.9533, 76.9768],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_14fa4927b85df8f1fa9789366c34207a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3188d8562c68c9f5e45631ecca5d2d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d580b6dd4c952dd1c3d475e13e8bfcb = $(`<div id="html_6d580b6dd4c952dd1c3d475e13e8bfcb" style="width: 100.0%; height: 100.0%;">Trespassing at Kuniamuthur, Coimbatore</div>`)[0];
+                popup_b3188d8562c68c9f5e45631ecca5d2d7.setContent(html_6d580b6dd4c952dd1c3d475e13e8bfcb);
+            
+        
+
+        marker_ecc0782642610b36c6944787a87ac315.bindPopup(popup_b3188d8562c68c9f5e45631ecca5d2d7)
+        ;
+
+        
+    
+    
+                marker_ecc0782642610b36c6944787a87ac315.setIcon(icon_14fa4927b85df8f1fa9789366c34207a);
+            
+    
+            var marker_3a1ca3b4d09c6b020975acb904b7f3c0 = L.marker(
+                [11.0039, 76.9812],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7722902efcc78b43bb3a471237078e37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b9e4367cab355cd14c9c0d801e8d3de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b58d8242c7a0d8f82c335e13f334156 = $(`<div id="html_5b58d8242c7a0d8f82c335e13f334156" style="width: 100.0%; height: 100.0%;">Cybercrime at Sungam, Coimbatore</div>`)[0];
+                popup_5b9e4367cab355cd14c9c0d801e8d3de.setContent(html_5b58d8242c7a0d8f82c335e13f334156);
+            
+        
+
+        marker_3a1ca3b4d09c6b020975acb904b7f3c0.bindPopup(popup_5b9e4367cab355cd14c9c0d801e8d3de)
+        ;
+
+        
+    
+    
+                marker_3a1ca3b4d09c6b020975acb904b7f3c0.setIcon(icon_7722902efcc78b43bb3a471237078e37);
+            
+    
+            var marker_ee4c36305425d7e1e082acc86ca08a4d = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_c60a8f170a549cf01c063852205c9f27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34c8d38bdb9188ac62852d8feaf0237b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78730a755f02f8c88dbc3cd538930762 = $(`<div id="html_78730a755f02f8c88dbc3cd538930762" style="width: 100.0%; height: 100.0%;">Burglary at Gandhipuram, Coimbatore</div>`)[0];
+                popup_34c8d38bdb9188ac62852d8feaf0237b.setContent(html_78730a755f02f8c88dbc3cd538930762);
+            
+        
+
+        marker_ee4c36305425d7e1e082acc86ca08a4d.bindPopup(popup_34c8d38bdb9188ac62852d8feaf0237b)
+        ;
+
+        
+    
+    
+                marker_ee4c36305425d7e1e082acc86ca08a4d.setIcon(icon_c60a8f170a549cf01c063852205c9f27);
+            
+    
+            var marker_94c692f4a6a252a30bbc840d6089477b = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_968ebd596366865051553c0d45fdb2e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a594d93eb7a407acb2d6ef740aa33a04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22270b783df1772df37640312a13f012 = $(`<div id="html_22270b783df1772df37640312a13f012" style="width: 100.0%; height: 100.0%;">Theft at RS Puram, Coimbatore</div>`)[0];
+                popup_a594d93eb7a407acb2d6ef740aa33a04.setContent(html_22270b783df1772df37640312a13f012);
+            
+        
+
+        marker_94c692f4a6a252a30bbc840d6089477b.bindPopup(popup_a594d93eb7a407acb2d6ef740aa33a04)
+        ;
+
+        
+    
+    
+                marker_94c692f4a6a252a30bbc840d6089477b.setIcon(icon_968ebd596366865051553c0d45fdb2e7);
+            
+    
+            var marker_40e3df9295ed74662cc7aa7a9d97d97a = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_fb79bfbbc215319591b65f99d8af1005 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa6ced10671f7e1eeb4281441dc206a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80ea5ecf1d43a4db807322def4947497 = $(`<div id="html_80ea5ecf1d43a4db807322def4947497" style="width: 100.0%; height: 100.0%;">Assault at Ukkadam, Coimbatore</div>`)[0];
+                popup_aa6ced10671f7e1eeb4281441dc206a8.setContent(html_80ea5ecf1d43a4db807322def4947497);
+            
+        
+
+        marker_40e3df9295ed74662cc7aa7a9d97d97a.bindPopup(popup_aa6ced10671f7e1eeb4281441dc206a8)
+        ;
+
+        
+    
+    
+                marker_40e3df9295ed74662cc7aa7a9d97d97a.setIcon(icon_fb79bfbbc215319591b65f99d8af1005);
+            
+    
+            var marker_1bb71683d0906b6a518f91f9f9e99164 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_0c897b0ef564542b9f92ac7f40e50406 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a929a96a73625bfc3708f47433749926 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_787ff29295947e1d750754a7c8402725 = $(`<div id="html_787ff29295947e1d750754a7c8402725" style="width: 100.0%; height: 100.0%;">Robbery at Peelamedu, Coimbatore</div>`)[0];
+                popup_a929a96a73625bfc3708f47433749926.setContent(html_787ff29295947e1d750754a7c8402725);
+            
+        
+
+        marker_1bb71683d0906b6a518f91f9f9e99164.bindPopup(popup_a929a96a73625bfc3708f47433749926)
+        ;
+
+        
+    
+    
+                marker_1bb71683d0906b6a518f91f9f9e99164.setIcon(icon_0c897b0ef564542b9f92ac7f40e50406);
+            
+    
+            var marker_a6d3bde999d89875d34886d0b28e046d = L.marker(
+                [11.0235, 76.9456],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_0a08b0397050ee78d5173082abe80e7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dacfbc5f23006fc60bea4f918d5c4100 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1deba9886a7fa1f8d9906e933d06c43e = $(`<div id="html_1deba9886a7fa1f8d9906e933d06c43e" style="width: 100.0%; height: 100.0%;">Vandalism at Saibaba Colony, Coimbatore</div>`)[0];
+                popup_dacfbc5f23006fc60bea4f918d5c4100.setContent(html_1deba9886a7fa1f8d9906e933d06c43e);
+            
+        
+
+        marker_a6d3bde999d89875d34886d0b28e046d.bindPopup(popup_dacfbc5f23006fc60bea4f918d5c4100)
+        ;
+
+        
+    
+    
+                marker_a6d3bde999d89875d34886d0b28e046d.setIcon(icon_0a08b0397050ee78d5173082abe80e7d);
+            
+    
+            var marker_981606ff858fa2caa992542cff7c6d92 = L.marker(
+                [10.9533, 76.9768],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_2393d03b639059fe853f19b3d415c649 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b78c6a590220a2584c8ac47801ad6cb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bb63447ab2f37564b7cb0d18a9a14c0 = $(`<div id="html_2bb63447ab2f37564b7cb0d18a9a14c0" style="width: 100.0%; height: 100.0%;">Burglary at Kuniamuthur, Coimbatore</div>`)[0];
+                popup_b78c6a590220a2584c8ac47801ad6cb8.setContent(html_2bb63447ab2f37564b7cb0d18a9a14c0);
+            
+        
+
+        marker_981606ff858fa2caa992542cff7c6d92.bindPopup(popup_b78c6a590220a2584c8ac47801ad6cb8)
+        ;
+
+        
+    
+    
+                marker_981606ff858fa2caa992542cff7c6d92.setIcon(icon_2393d03b639059fe853f19b3d415c649);
+            
+    
+            var marker_d62a9e289999f33372b69af1b72269cb = L.marker(
+                [11.0039, 76.9812],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_bea6d1b7ec07cd77f439394940acfa7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5d19608c0ffc3c43db3fa87f0968a12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0958475cbcc1d0e12b285d558992f9f8 = $(`<div id="html_0958475cbcc1d0e12b285d558992f9f8" style="width: 100.0%; height: 100.0%;">Theft at Sungam, Coimbatore</div>`)[0];
+                popup_e5d19608c0ffc3c43db3fa87f0968a12.setContent(html_0958475cbcc1d0e12b285d558992f9f8);
+            
+        
+
+        marker_d62a9e289999f33372b69af1b72269cb.bindPopup(popup_e5d19608c0ffc3c43db3fa87f0968a12)
+        ;
+
+        
+    
+    
+                marker_d62a9e289999f33372b69af1b72269cb.setIcon(icon_bea6d1b7ec07cd77f439394940acfa7d);
+            
+    
+            var marker_92a6e5f723769b0d8ddc519607650168 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_23ee8c213b8f940a9c49806ead3edae2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33a8d67f4a360343f6c917da23cf6224 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6fb7f9cc93de23b19e1a0c99dae48e6 = $(`<div id="html_f6fb7f9cc93de23b19e1a0c99dae48e6" style="width: 100.0%; height: 100.0%;">Cybercrime at Singanallur, Coimbatore</div>`)[0];
+                popup_33a8d67f4a360343f6c917da23cf6224.setContent(html_f6fb7f9cc93de23b19e1a0c99dae48e6);
+            
+        
+
+        marker_92a6e5f723769b0d8ddc519607650168.bindPopup(popup_33a8d67f4a360343f6c917da23cf6224)
+        ;
+
+        
+    
+    
+                marker_92a6e5f723769b0d8ddc519607650168.setIcon(icon_23ee8c213b8f940a9c49806ead3edae2);
+            
+    
+            var marker_4633eff5391943d4ca010394252b2e5e = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_d4d3acf476dc92bf16c4e53087b58cee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24dc4a39c65c83e275cb3d436a744ab0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9902ab0f6f104c7e1256e6878eaa7356 = $(`<div id="html_9902ab0f6f104c7e1256e6878eaa7356" style="width: 100.0%; height: 100.0%;">Drug Possession at Podanur, Coimbatore</div>`)[0];
+                popup_24dc4a39c65c83e275cb3d436a744ab0.setContent(html_9902ab0f6f104c7e1256e6878eaa7356);
+            
+        
+
+        marker_4633eff5391943d4ca010394252b2e5e.bindPopup(popup_24dc4a39c65c83e275cb3d436a744ab0)
+        ;
+
+        
+    
+    
+                marker_4633eff5391943d4ca010394252b2e5e.setIcon(icon_d4d3acf476dc92bf16c4e53087b58cee);
+            
+    
+            var marker_92b22a17f25509099fe974e3ac91de60 = L.marker(
+                [11.0855, 76.9517],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_88cb7c2d74ef41b77d4d9805696c9f48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d39c22732cbfa3226bfdd1dd83dd9e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5696e9161a6c84393b15d4adad5e0226 = $(`<div id="html_5696e9161a6c84393b15d4adad5e0226" style="width: 100.0%; height: 100.0%;">Kidnapping at Thudiyalur, Coimbatore</div>`)[0];
+                popup_1d39c22732cbfa3226bfdd1dd83dd9e9.setContent(html_5696e9161a6c84393b15d4adad5e0226);
+            
+        
+
+        marker_92b22a17f25509099fe974e3ac91de60.bindPopup(popup_1d39c22732cbfa3226bfdd1dd83dd9e9)
+        ;
+
+        
+    
+    
+                marker_92b22a17f25509099fe974e3ac91de60.setIcon(icon_88cb7c2d74ef41b77d4d9805696c9f48);
+            
+    
+            var marker_7d6c8cc8c6a4e29205f56cb19fc2b256 = L.marker(
+                [11.0322, 76.9003],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_1b8fa07bb3a747c9c91ce925b6cba29c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5acd0839575b7d103d44c6c1346f7a99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4349884339062cf568bac7628821fc8 = $(`<div id="html_d4349884339062cf568bac7628821fc8" style="width: 100.0%; height: 100.0%;">Murder at Vadavalli, Coimbatore</div>`)[0];
+                popup_5acd0839575b7d103d44c6c1346f7a99.setContent(html_d4349884339062cf568bac7628821fc8);
+            
+        
+
+        marker_7d6c8cc8c6a4e29205f56cb19fc2b256.bindPopup(popup_5acd0839575b7d103d44c6c1346f7a99)
+        ;
+
+        
+    
+    
+                marker_7d6c8cc8c6a4e29205f56cb19fc2b256.setIcon(icon_1b8fa07bb3a747c9c91ce925b6cba29c);
+            
+    
+            var marker_3e668fa3230be3187e9c54eb33430eaf = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_f82820f5445e47921524f3d09db833ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2819127fb874c4e32dc77d247b19de18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12e614fb7544c8ac9f76d2b78e028bdc = $(`<div id="html_12e614fb7544c8ac9f76d2b78e028bdc" style="width: 100.0%; height: 100.0%;">Burglary at Saravanampatti, Coimbatore</div>`)[0];
+                popup_2819127fb874c4e32dc77d247b19de18.setContent(html_12e614fb7544c8ac9f76d2b78e028bdc);
+            
+        
+
+        marker_3e668fa3230be3187e9c54eb33430eaf.bindPopup(popup_2819127fb874c4e32dc77d247b19de18)
+        ;
+
+        
+    
+    
+                marker_3e668fa3230be3187e9c54eb33430eaf.setIcon(icon_f82820f5445e47921524f3d09db833ec);
+            
+    
+            var marker_c2e2cef1c7babe342c877ba38f30b94d = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_6481a681b8490c7fff442c857a87ae11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcad4530904aef5867664708c81bdfd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac02a2999fc72818f4303ecbb1c83f8d = $(`<div id="html_ac02a2999fc72818f4303ecbb1c83f8d" style="width: 100.0%; height: 100.0%;">Cybercrime at Race Course, Coimbatore</div>`)[0];
+                popup_dcad4530904aef5867664708c81bdfd2.setContent(html_ac02a2999fc72818f4303ecbb1c83f8d);
+            
+        
+
+        marker_c2e2cef1c7babe342c877ba38f30b94d.bindPopup(popup_dcad4530904aef5867664708c81bdfd2)
+        ;
+
+        
+    
+    
+                marker_c2e2cef1c7babe342c877ba38f30b94d.setIcon(icon_6481a681b8490c7fff442c857a87ae11);
+            
+    
+            var marker_71d05252007e60d1d00be02ec2c33f63 = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_bf327c5d25faa2395f5cc72b854a4812 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51845ffdc3f46cd673221b9e0993b08b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec01be104efd9ab8730e0b40e53848d5 = $(`<div id="html_ec01be104efd9ab8730e0b40e53848d5" style="width: 100.0%; height: 100.0%;">Arson at Kovaipudur, Coimbatore</div>`)[0];
+                popup_51845ffdc3f46cd673221b9e0993b08b.setContent(html_ec01be104efd9ab8730e0b40e53848d5);
+            
+        
+
+        marker_71d05252007e60d1d00be02ec2c33f63.bindPopup(popup_51845ffdc3f46cd673221b9e0993b08b)
+        ;
+
+        
+    
+    
+                marker_71d05252007e60d1d00be02ec2c33f63.setIcon(icon_bf327c5d25faa2395f5cc72b854a4812);
+            
+    
+            var marker_44b773f4b158ec13a4fb29fb6b637450 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_3e6004cde327d1edd548565d99db44cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_516c808f038d795244166e1f10dc6662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be3adc4b6d4ebcec5667a144462e76d2 = $(`<div id="html_be3adc4b6d4ebcec5667a144462e76d2" style="width: 100.0%; height: 100.0%;">Theft at Peelamedu, Coimbatore</div>`)[0];
+                popup_516c808f038d795244166e1f10dc6662.setContent(html_be3adc4b6d4ebcec5667a144462e76d2);
+            
+        
+
+        marker_44b773f4b158ec13a4fb29fb6b637450.bindPopup(popup_516c808f038d795244166e1f10dc6662)
+        ;
+
+        
+    
+    
+                marker_44b773f4b158ec13a4fb29fb6b637450.setIcon(icon_3e6004cde327d1edd548565d99db44cf);
+            
+    
+            var marker_a026158d0357b630a6ba46dce7400fd8 = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_96dc61d84148f3b2e87e79d3c1f26538 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c72c53575e551ee5d033d15935fd356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a47df7a46fbb780600d67fa7b1e88b4b = $(`<div id="html_a47df7a46fbb780600d67fa7b1e88b4b" style="width: 100.0%; height: 100.0%;">Robbery at RS Puram, Coimbatore</div>`)[0];
+                popup_6c72c53575e551ee5d033d15935fd356.setContent(html_a47df7a46fbb780600d67fa7b1e88b4b);
+            
+        
+
+        marker_a026158d0357b630a6ba46dce7400fd8.bindPopup(popup_6c72c53575e551ee5d033d15935fd356)
+        ;
+
+        
+    
+    
+                marker_a026158d0357b630a6ba46dce7400fd8.setIcon(icon_96dc61d84148f3b2e87e79d3c1f26538);
+            
+    
+            var marker_21206758dad625dc778120e961623050 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_33e4bf6620e011385631abf8f457615e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e17591273b28f2ed6c7e3d32b5aec06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4fe0bbfdc89601ee0e9fedcd894089f = $(`<div id="html_d4fe0bbfdc89601ee0e9fedcd894089f" style="width: 100.0%; height: 100.0%;">Fraud at Singanallur, Coimbatore</div>`)[0];
+                popup_7e17591273b28f2ed6c7e3d32b5aec06.setContent(html_d4fe0bbfdc89601ee0e9fedcd894089f);
+            
+        
+
+        marker_21206758dad625dc778120e961623050.bindPopup(popup_7e17591273b28f2ed6c7e3d32b5aec06)
+        ;
+
+        
+    
+    
+                marker_21206758dad625dc778120e961623050.setIcon(icon_33e4bf6620e011385631abf8f457615e);
+            
+    
+            var marker_8dc47742b7b2497b9e3a4ff0255a263f = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b9d6bb34770cd54851e1d46d4acdac9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88a3a012286572d072b3ee90006690bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0ddc2f538efe016c77132105e16cfc5 = $(`<div id="html_f0ddc2f538efe016c77132105e16cfc5" style="width: 100.0%; height: 100.0%;">Car Theft at Gandhipuram, Coimbatore</div>`)[0];
+                popup_88a3a012286572d072b3ee90006690bc.setContent(html_f0ddc2f538efe016c77132105e16cfc5);
+            
+        
+
+        marker_8dc47742b7b2497b9e3a4ff0255a263f.bindPopup(popup_88a3a012286572d072b3ee90006690bc)
+        ;
+
+        
+    
+    
+                marker_8dc47742b7b2497b9e3a4ff0255a263f.setIcon(icon_b9d6bb34770cd54851e1d46d4acdac9e);
+            
+    
+            var marker_eba06f03d24ef86cc09dde81f01d3a9a = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_5ca72777178cdc0f993f1de5dd437ec5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43e3f38416c53294aebb419bf31a495e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a630a5caae0f8ffe4582d2063b4cfda = $(`<div id="html_5a630a5caae0f8ffe4582d2063b4cfda" style="width: 100.0%; height: 100.0%;">Domestic Violence at Ukkadam, Coimbatore</div>`)[0];
+                popup_43e3f38416c53294aebb419bf31a495e.setContent(html_5a630a5caae0f8ffe4582d2063b4cfda);
+            
+        
+
+        marker_eba06f03d24ef86cc09dde81f01d3a9a.bindPopup(popup_43e3f38416c53294aebb419bf31a495e)
+        ;
+
+        
+    
+    
+                marker_eba06f03d24ef86cc09dde81f01d3a9a.setIcon(icon_5ca72777178cdc0f993f1de5dd437ec5);
+            
+    
+            var marker_012b876ed06c14acbb98f4d5cb325765 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_0b2401ce39c74d59cdb28c9130a062ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e51bd5ec8f223f6c42979671f26761e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_838f7621dbdf975910db8ff39549cfbe = $(`<div id="html_838f7621dbdf975910db8ff39549cfbe" style="width: 100.0%; height: 100.0%;">Hacking at Peelamedu, Coimbatore</div>`)[0];
+                popup_e51bd5ec8f223f6c42979671f26761e9.setContent(html_838f7621dbdf975910db8ff39549cfbe);
+            
+        
+
+        marker_012b876ed06c14acbb98f4d5cb325765.bindPopup(popup_e51bd5ec8f223f6c42979671f26761e9)
+        ;
+
+        
+    
+    
+                marker_012b876ed06c14acbb98f4d5cb325765.setIcon(icon_0b2401ce39c74d59cdb28c9130a062ef);
+            
+    
+            var marker_b2b1018cd881e632e1006a92eaa5a04e = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_0dba53338a8c5a0f995b6e51de3249fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c0439f2a354735924cbfd5577239d10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e43e2e0ae4d476b3af77ea51591b8baf = $(`<div id="html_e43e2e0ae4d476b3af77ea51591b8baf" style="width: 100.0%; height: 100.0%;">Forgery at RS Puram, Coimbatore</div>`)[0];
+                popup_9c0439f2a354735924cbfd5577239d10.setContent(html_e43e2e0ae4d476b3af77ea51591b8baf);
+            
+        
+
+        marker_b2b1018cd881e632e1006a92eaa5a04e.bindPopup(popup_9c0439f2a354735924cbfd5577239d10)
+        ;
+
+        
+    
+    
+                marker_b2b1018cd881e632e1006a92eaa5a04e.setIcon(icon_0dba53338a8c5a0f995b6e51de3249fa);
+            
+    
+            var marker_ec9bc98c92748b3487ee22fa7c3f39af = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_4ced2f069f41841900e32c4769f221cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67e9dc33123a16d5a1b2e70489f33b13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72ec62be00df61403f2742885d69fda7 = $(`<div id="html_72ec62be00df61403f2742885d69fda7" style="width: 100.0%; height: 100.0%;">Illegal Gambling at Gandhipuram, Coimbatore</div>`)[0];
+                popup_67e9dc33123a16d5a1b2e70489f33b13.setContent(html_72ec62be00df61403f2742885d69fda7);
+            
+        
+
+        marker_ec9bc98c92748b3487ee22fa7c3f39af.bindPopup(popup_67e9dc33123a16d5a1b2e70489f33b13)
+        ;
+
+        
+    
+    
+                marker_ec9bc98c92748b3487ee22fa7c3f39af.setIcon(icon_4ced2f069f41841900e32c4769f221cc);
+            
+    
+            var marker_f09449b20ec4535215a348f4b701ad2b = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_0598a46d22518eb967c7f0888008a90d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_445936619a2ccf8b7d70ce643e85dfa0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5480e05a510ec482d64c21d82505b1c9 = $(`<div id="html_5480e05a510ec482d64c21d82505b1c9" style="width: 100.0%; height: 100.0%;">Vandalism at Singanallur, Coimbatore</div>`)[0];
+                popup_445936619a2ccf8b7d70ce643e85dfa0.setContent(html_5480e05a510ec482d64c21d82505b1c9);
+            
+        
+
+        marker_f09449b20ec4535215a348f4b701ad2b.bindPopup(popup_445936619a2ccf8b7d70ce643e85dfa0)
+        ;
+
+        
+    
+    
+                marker_f09449b20ec4535215a348f4b701ad2b.setIcon(icon_0598a46d22518eb967c7f0888008a90d);
+            
+    
+            var marker_567da020c03bd3343332000bc3db8776 = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7d4addcb5ef3d5e8de5ec5a1fb483468 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23e4447668f877d517d4ad4f0a4edfd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77e80ca777fe565403f113f291272033 = $(`<div id="html_77e80ca777fe565403f113f291272033" style="width: 100.0%; height: 100.0%;">Arson at Podanur, Coimbatore</div>`)[0];
+                popup_23e4447668f877d517d4ad4f0a4edfd5.setContent(html_77e80ca777fe565403f113f291272033);
+            
+        
+
+        marker_567da020c03bd3343332000bc3db8776.bindPopup(popup_23e4447668f877d517d4ad4f0a4edfd5)
+        ;
+
+        
+    
+    
+                marker_567da020c03bd3343332000bc3db8776.setIcon(icon_7d4addcb5ef3d5e8de5ec5a1fb483468);
+            
+    
+            var marker_1ea9efcefad81dc78d88d4412a9749f0 = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_1036a1341360867d06071942566cdcdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c572fb629f0736afaf1b662a268cccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5740981e7c7fd3785799ad356cdaecca = $(`<div id="html_5740981e7c7fd3785799ad356cdaecca" style="width: 100.0%; height: 100.0%;">Drunk Driving at Race Course, Coimbatore</div>`)[0];
+                popup_6c572fb629f0736afaf1b662a268cccb.setContent(html_5740981e7c7fd3785799ad356cdaecca);
+            
+        
+
+        marker_1ea9efcefad81dc78d88d4412a9749f0.bindPopup(popup_6c572fb629f0736afaf1b662a268cccb)
+        ;
+
+        
+    
+    
+                marker_1ea9efcefad81dc78d88d4412a9749f0.setIcon(icon_1036a1341360867d06071942566cdcdf);
+            
+    
+            var marker_5a6beabfe6faa2b32620359f1f6a2eaf = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_416e94dcd63fdddea81c466ec1ec76e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc85c64353e39863788a4148d1f465b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94a9fa77835a646c632b81cfa25553ba = $(`<div id="html_94a9fa77835a646c632b81cfa25553ba" style="width: 100.0%; height: 100.0%;">Assault at Saravanampatti, Coimbatore</div>`)[0];
+                popup_dc85c64353e39863788a4148d1f465b5.setContent(html_94a9fa77835a646c632b81cfa25553ba);
+            
+        
+
+        marker_5a6beabfe6faa2b32620359f1f6a2eaf.bindPopup(popup_dc85c64353e39863788a4148d1f465b5)
+        ;
+
+        
+    
+    
+                marker_5a6beabfe6faa2b32620359f1f6a2eaf.setIcon(icon_416e94dcd63fdddea81c466ec1ec76e0);
+            
+    
+            var marker_1604ceb81f97e5c72e303b96f0c7fc9b = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_c3827782293675b1c5e3c41d844a228a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7290aa7626a1ebd277c1839792c11397 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbb7199c41ec7bde07bfcb8745f8f37a = $(`<div id="html_bbb7199c41ec7bde07bfcb8745f8f37a" style="width: 100.0%; height: 100.0%;">Kidnapping at Kovaipudur, Coimbatore</div>`)[0];
+                popup_7290aa7626a1ebd277c1839792c11397.setContent(html_bbb7199c41ec7bde07bfcb8745f8f37a);
+            
+        
+
+        marker_1604ceb81f97e5c72e303b96f0c7fc9b.bindPopup(popup_7290aa7626a1ebd277c1839792c11397)
+        ;
+
+        
+    
+    
+                marker_1604ceb81f97e5c72e303b96f0c7fc9b.setIcon(icon_c3827782293675b1c5e3c41d844a228a);
+            
+    
+            var marker_816317891c53a9455da2aba401482471 = L.marker(
+                [11.0855, 76.9517],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_2823408641011b532ff1374a60bd893f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57f30bbf33555fa5b5726fcd531c4834 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f71239dacfca7e4bd51dcc07dfff8f20 = $(`<div id="html_f71239dacfca7e4bd51dcc07dfff8f20" style="width: 100.0%; height: 100.0%;">Robbery at Thudiyalur, Coimbatore</div>`)[0];
+                popup_57f30bbf33555fa5b5726fcd531c4834.setContent(html_f71239dacfca7e4bd51dcc07dfff8f20);
+            
+        
+
+        marker_816317891c53a9455da2aba401482471.bindPopup(popup_57f30bbf33555fa5b5726fcd531c4834)
+        ;
+
+        
+    
+    
+                marker_816317891c53a9455da2aba401482471.setIcon(icon_2823408641011b532ff1374a60bd893f);
+            
+    
+            var marker_1750a3f0f8edf0859bf4c4180c08c104 = L.marker(
+                [11.0322, 76.9003],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_612664d8ba881de33631b05ab1cf8f1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51d5a9c92eacf5371b1b5f255a734d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba22fd938860fbecac58a49c913007f6 = $(`<div id="html_ba22fd938860fbecac58a49c913007f6" style="width: 100.0%; height: 100.0%;">Murder at Vadavalli, Coimbatore</div>`)[0];
+                popup_51d5a9c92eacf5371b1b5f255a734d15.setContent(html_ba22fd938860fbecac58a49c913007f6);
+            
+        
+
+        marker_1750a3f0f8edf0859bf4c4180c08c104.bindPopup(popup_51d5a9c92eacf5371b1b5f255a734d15)
+        ;
+
+        
+    
+    
+                marker_1750a3f0f8edf0859bf4c4180c08c104.setIcon(icon_612664d8ba881de33631b05ab1cf8f1b);
+            
+    
+            var marker_f64bb16a1fd9748c6bbb3b35962c8a7c = L.marker(
+                [11.0235, 76.9456],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_987942b1f5aeb608ee4adc91e2a523a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af5a78e6667ac38f5dd0f7a61924e24c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150b570134b3bee6579ad0ba601350b8 = $(`<div id="html_150b570134b3bee6579ad0ba601350b8" style="width: 100.0%; height: 100.0%;">Burglary at Saibaba Colony, Coimbatore</div>`)[0];
+                popup_af5a78e6667ac38f5dd0f7a61924e24c.setContent(html_150b570134b3bee6579ad0ba601350b8);
+            
+        
+
+        marker_f64bb16a1fd9748c6bbb3b35962c8a7c.bindPopup(popup_af5a78e6667ac38f5dd0f7a61924e24c)
+        ;
+
+        
+    
+    
+                marker_f64bb16a1fd9748c6bbb3b35962c8a7c.setIcon(icon_987942b1f5aeb608ee4adc91e2a523a5);
+            
+    
+            var marker_c482dca04d665a748af7b633f00f6b86 = L.marker(
+                [10.9533, 76.9768],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_2971056234c6e1472b278782e544a54c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_981753506c449666bd2d7bb9c0f40ed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47d58bea2dc5e063cf659d69ccebbd28 = $(`<div id="html_47d58bea2dc5e063cf659d69ccebbd28" style="width: 100.0%; height: 100.0%;">Cybercrime at Kuniamuthur, Coimbatore</div>`)[0];
+                popup_981753506c449666bd2d7bb9c0f40ed2.setContent(html_47d58bea2dc5e063cf659d69ccebbd28);
+            
+        
+
+        marker_c482dca04d665a748af7b633f00f6b86.bindPopup(popup_981753506c449666bd2d7bb9c0f40ed2)
+        ;
+
+        
+    
+    
+                marker_c482dca04d665a748af7b633f00f6b86.setIcon(icon_2971056234c6e1472b278782e544a54c);
+            
+    
+            var marker_d2ccbdd90f52f2fc03a19a9e979f9c27 = L.marker(
+                [11.0039, 76.9812],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_bc82b40cfca054aa25b739c844532055 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7db8d0aa35cc8e2ce6f1362a82ed0c4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f954766fd4ee98b6facb04c85b6fde9 = $(`<div id="html_2f954766fd4ee98b6facb04c85b6fde9" style="width: 100.0%; height: 100.0%;">Assault at Sungam, Coimbatore</div>`)[0];
+                popup_7db8d0aa35cc8e2ce6f1362a82ed0c4a.setContent(html_2f954766fd4ee98b6facb04c85b6fde9);
+            
+        
+
+        marker_d2ccbdd90f52f2fc03a19a9e979f9c27.bindPopup(popup_7db8d0aa35cc8e2ce6f1362a82ed0c4a)
+        ;
+
+        
+    
+    
+                marker_d2ccbdd90f52f2fc03a19a9e979f9c27.setIcon(icon_bc82b40cfca054aa25b739c844532055);
+            
+    
+            var marker_342a64b7f10cbd7d0a4d501b8817b3b2 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_ebbe0171e08167d51251aaf0c397a0ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32372c1a87326a085c3d021bb4050775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe7325d3044da67ed7deb7ab4b324127 = $(`<div id="html_fe7325d3044da67ed7deb7ab4b324127" style="width: 100.0%; height: 100.0%;">Arson at Singanallur, Coimbatore</div>`)[0];
+                popup_32372c1a87326a085c3d021bb4050775.setContent(html_fe7325d3044da67ed7deb7ab4b324127);
+            
+        
+
+        marker_342a64b7f10cbd7d0a4d501b8817b3b2.bindPopup(popup_32372c1a87326a085c3d021bb4050775)
+        ;
+
+        
+    
+    
+                marker_342a64b7f10cbd7d0a4d501b8817b3b2.setIcon(icon_ebbe0171e08167d51251aaf0c397a0ad);
+            
+    
+            var marker_88d3c8fecaf5dc0e7d2ec2186d10dba5 = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_28a41de47420083df6a4e41c2f8f1509 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1501b52ffe8dd720a4458a6a6eda9565 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33de1d110019b3e0df8000bb937f1458 = $(`<div id="html_33de1d110019b3e0df8000bb937f1458" style="width: 100.0%; height: 100.0%;">Fraud at Podanur, Coimbatore</div>`)[0];
+                popup_1501b52ffe8dd720a4458a6a6eda9565.setContent(html_33de1d110019b3e0df8000bb937f1458);
+            
+        
+
+        marker_88d3c8fecaf5dc0e7d2ec2186d10dba5.bindPopup(popup_1501b52ffe8dd720a4458a6a6eda9565)
+        ;
+
+        
+    
+    
+                marker_88d3c8fecaf5dc0e7d2ec2186d10dba5.setIcon(icon_28a41de47420083df6a4e41c2f8f1509);
+            
+    
+            var marker_1356f184c3adf42d66c05b60e368cb94 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_6157169b0bcb5537485cf20bcc00abfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe655beb81e99369f9e3e9bb8d8db1ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a223c2e7b8655df1b1cf76e6dadeb90 = $(`<div id="html_9a223c2e7b8655df1b1cf76e6dadeb90" style="width: 100.0%; height: 100.0%;">Kidnapping at Gandhipuram, Coimbatore</div>`)[0];
+                popup_fe655beb81e99369f9e3e9bb8d8db1ee.setContent(html_9a223c2e7b8655df1b1cf76e6dadeb90);
+            
+        
+
+        marker_1356f184c3adf42d66c05b60e368cb94.bindPopup(popup_fe655beb81e99369f9e3e9bb8d8db1ee)
+        ;
+
+        
+    
+    
+                marker_1356f184c3adf42d66c05b60e368cb94.setIcon(icon_6157169b0bcb5537485cf20bcc00abfa);
+            
+    
+            var marker_c6c36db350c33579f73e3fd4cfd6bb82 = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_bc095765b3160ae9ab2ed8a1887e3826 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-usd",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b9c0ee77d67b0d79a1360198b2c1ff6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b193f0b31fbfa23d82271ef1cdf510f8 = $(`<div id="html_b193f0b31fbfa23d82271ef1cdf510f8" style="width: 100.0%; height: 100.0%;">Theft at RS Puram, Coimbatore</div>`)[0];
+                popup_5b9c0ee77d67b0d79a1360198b2c1ff6.setContent(html_b193f0b31fbfa23d82271ef1cdf510f8);
+            
+        
+
+        marker_c6c36db350c33579f73e3fd4cfd6bb82.bindPopup(popup_5b9c0ee77d67b0d79a1360198b2c1ff6)
+        ;
+
+        
+    
+    
+                marker_c6c36db350c33579f73e3fd4cfd6bb82.setIcon(icon_bc095765b3160ae9ab2ed8a1887e3826);
+            
+    
+            var marker_4e9f73ed40c49aa6ccee94fda10529d1 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_a93f076c55d843caaabd694796bcde0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2dfbb687e078ad3cd736266e34764a66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca9049869d21e52cd406af52924a203f = $(`<div id="html_ca9049869d21e52cd406af52924a203f" style="width: 100.0%; height: 100.0%;">Burglary at Peelamedu, Coimbatore</div>`)[0];
+                popup_2dfbb687e078ad3cd736266e34764a66.setContent(html_ca9049869d21e52cd406af52924a203f);
+            
+        
+
+        marker_4e9f73ed40c49aa6ccee94fda10529d1.bindPopup(popup_2dfbb687e078ad3cd736266e34764a66)
+        ;
+
+        
+    
+    
+                marker_4e9f73ed40c49aa6ccee94fda10529d1.setIcon(icon_a93f076c55d843caaabd694796bcde0d);
+            
+    
+            var marker_645d27cc2f373d1f1a74c104d7286b3f = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_ecbbcd03b0c533d620f22f41fb78f1f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_895cb964343e141c1805830b4b3cef50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0344370ef6983d2347051d58b08fc7b6 = $(`<div id="html_0344370ef6983d2347051d58b08fc7b6" style="width: 100.0%; height: 100.0%;">Cybercrime at Ukkadam, Coimbatore</div>`)[0];
+                popup_895cb964343e141c1805830b4b3cef50.setContent(html_0344370ef6983d2347051d58b08fc7b6);
+            
+        
+
+        marker_645d27cc2f373d1f1a74c104d7286b3f.bindPopup(popup_895cb964343e141c1805830b4b3cef50)
+        ;
+
+        
+    
+    
+                marker_645d27cc2f373d1f1a74c104d7286b3f.setIcon(icon_ecbbcd03b0c533d620f22f41fb78f1f2);
+            
+    
+            var marker_c6db7ca8763d4127f9b5b46771ee4d32 = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_94ca96541f5367b2298cec1220ccaa46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00bf298cbed443161c9d92b4f6418352 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9af5ff09ec2f51e2d8cd0ec53dd5d07d = $(`<div id="html_9af5ff09ec2f51e2d8cd0ec53dd5d07d" style="width: 100.0%; height: 100.0%;">Forgery at Race Course, Coimbatore</div>`)[0];
+                popup_00bf298cbed443161c9d92b4f6418352.setContent(html_9af5ff09ec2f51e2d8cd0ec53dd5d07d);
+            
+        
+
+        marker_c6db7ca8763d4127f9b5b46771ee4d32.bindPopup(popup_00bf298cbed443161c9d92b4f6418352)
+        ;
+
+        
+    
+    
+                marker_c6db7ca8763d4127f9b5b46771ee4d32.setIcon(icon_94ca96541f5367b2298cec1220ccaa46);
+            
+    
+            var marker_3ca526fcc2858e4c163e8c2af4ba042b = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_63cbb319fbb07f5f183915ef8fd36ddd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bf2a6c615498571a99bbee6b30b158c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e35cea08c54875b51ca2ad2b1344730 = $(`<div id="html_5e35cea08c54875b51ca2ad2b1344730" style="width: 100.0%; height: 100.0%;">Drunk Driving at Saravanampatti, Coimbatore</div>`)[0];
+                popup_9bf2a6c615498571a99bbee6b30b158c.setContent(html_5e35cea08c54875b51ca2ad2b1344730);
+            
+        
+
+        marker_3ca526fcc2858e4c163e8c2af4ba042b.bindPopup(popup_9bf2a6c615498571a99bbee6b30b158c)
+        ;
+
+        
+    
+    
+                marker_3ca526fcc2858e4c163e8c2af4ba042b.setIcon(icon_63cbb319fbb07f5f183915ef8fd36ddd);
+            
+    
+            var marker_835ea3feb1cf3b1043ef8c914d5f8afd = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_43ffd0ed51fb03199f0c7b7951fdf0c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae21c5adc3df17c66153172dd6edf5a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64752645ce5bd0b1f49dd2cadbf5b554 = $(`<div id="html_64752645ce5bd0b1f49dd2cadbf5b554" style="width: 100.0%; height: 100.0%;">Illegal Gambling at Kovaipudur, Coimbatore</div>`)[0];
+                popup_ae21c5adc3df17c66153172dd6edf5a1.setContent(html_64752645ce5bd0b1f49dd2cadbf5b554);
+            
+        
+
+        marker_835ea3feb1cf3b1043ef8c914d5f8afd.bindPopup(popup_ae21c5adc3df17c66153172dd6edf5a1)
+        ;
+
+        
+    
+    
+                marker_835ea3feb1cf3b1043ef8c914d5f8afd.setIcon(icon_43ffd0ed51fb03199f0c7b7951fdf0c6);
+            
+    
+            var marker_fa56ce119890d125d489c2c507fb7d10 = L.marker(
+                [11.0855, 76.9517],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_c6d857910790cf2c3ed4ec103d2195f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4c6af3983f170979be9f3f8799d9fc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_782e6f9320ab9e62bf7e1d21f8d72da8 = $(`<div id="html_782e6f9320ab9e62bf7e1d21f8d72da8" style="width: 100.0%; height: 100.0%;">Drug Possession at Thudiyalur, Coimbatore</div>`)[0];
+                popup_c4c6af3983f170979be9f3f8799d9fc8.setContent(html_782e6f9320ab9e62bf7e1d21f8d72da8);
+            
+        
+
+        marker_fa56ce119890d125d489c2c507fb7d10.bindPopup(popup_c4c6af3983f170979be9f3f8799d9fc8)
+        ;
+
+        
+    
+    
+                marker_fa56ce119890d125d489c2c507fb7d10.setIcon(icon_c6d857910790cf2c3ed4ec103d2195f9);
+            
+    
+            var marker_0eabe0480808d73ba21951b92707c28d = L.marker(
+                [11.0322, 76.9003],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b371bd6657270ceee7ef496af02462df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb81c243bd400f2e45c5a6a603f6a3ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0a63a9097ad975aa94419a41c382b1b = $(`<div id="html_a0a63a9097ad975aa94419a41c382b1b" style="width: 100.0%; height: 100.0%;">Robbery at Vadavalli, Coimbatore</div>`)[0];
+                popup_fb81c243bd400f2e45c5a6a603f6a3ef.setContent(html_a0a63a9097ad975aa94419a41c382b1b);
+            
+        
+
+        marker_0eabe0480808d73ba21951b92707c28d.bindPopup(popup_fb81c243bd400f2e45c5a6a603f6a3ef)
+        ;
+
+        
+    
+    
+                marker_0eabe0480808d73ba21951b92707c28d.setIcon(icon_b371bd6657270ceee7ef496af02462df);
+            
+    
+            var marker_f6af0f61baad81d56e83da2071604a09 = L.marker(
+                [11.0235, 76.9456],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_a9307fab1b7df31a34009db392850abc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d0827c98eb3fed02125cc48c65df82e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_406d1935952378aa810d04fc307d9c8c = $(`<div id="html_406d1935952378aa810d04fc307d9c8c" style="width: 100.0%; height: 100.0%;">Vandalism at Saibaba Colony, Coimbatore</div>`)[0];
+                popup_2d0827c98eb3fed02125cc48c65df82e.setContent(html_406d1935952378aa810d04fc307d9c8c);
+            
+        
+
+        marker_f6af0f61baad81d56e83da2071604a09.bindPopup(popup_2d0827c98eb3fed02125cc48c65df82e)
+        ;
+
+        
+    
+    
+                marker_f6af0f61baad81d56e83da2071604a09.setIcon(icon_a9307fab1b7df31a34009db392850abc);
+            
+    
+            var marker_39df299ac47608ac6c7ba3e92642115c = L.marker(
+                [10.9533, 76.9768],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_dfbbde412c144c16255474d5a46ce9f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6285d7d07bb4cfc6619c413cdb89aa4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85211d9a2ea0e09862183c413801da6a = $(`<div id="html_85211d9a2ea0e09862183c413801da6a" style="width: 100.0%; height: 100.0%;">Assault at Kuniamuthur, Coimbatore</div>`)[0];
+                popup_6285d7d07bb4cfc6619c413cdb89aa4f.setContent(html_85211d9a2ea0e09862183c413801da6a);
+            
+        
+
+        marker_39df299ac47608ac6c7ba3e92642115c.bindPopup(popup_6285d7d07bb4cfc6619c413cdb89aa4f)
+        ;
+
+        
+    
+    
+                marker_39df299ac47608ac6c7ba3e92642115c.setIcon(icon_dfbbde412c144c16255474d5a46ce9f2);
+            
+    
+            var marker_87960e0471fae145968e33ec9a67503a = L.marker(
+                [11.0039, 76.9812],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7dcc179df49821355c67edbe8db31c48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4beefd1b126d35820082075376b24396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2a40fd02c48b6f515f3e3edd26100cf = $(`<div id="html_f2a40fd02c48b6f515f3e3edd26100cf" style="width: 100.0%; height: 100.0%;">Murder at Sungam, Coimbatore</div>`)[0];
+                popup_4beefd1b126d35820082075376b24396.setContent(html_f2a40fd02c48b6f515f3e3edd26100cf);
+            
+        
+
+        marker_87960e0471fae145968e33ec9a67503a.bindPopup(popup_4beefd1b126d35820082075376b24396)
+        ;
+
+        
+    
+    
+                marker_87960e0471fae145968e33ec9a67503a.setIcon(icon_7dcc179df49821355c67edbe8db31c48);
+            
+    
+            var marker_76f3f63918ef179100cb05903efd36b1 = L.marker(
+                [11.0023, 77.0312],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_dfe0a9b53752f25cf4b7d5b5061fccce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6699cbfbdc82610d557b62ee8649db18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28ab855488ac7cbd136e2056a11bf1d4 = $(`<div id="html_28ab855488ac7cbd136e2056a11bf1d4" style="width: 100.0%; height: 100.0%;">Arson at Singanallur, Coimbatore</div>`)[0];
+                popup_6699cbfbdc82610d557b62ee8649db18.setContent(html_28ab855488ac7cbd136e2056a11bf1d4);
+            
+        
+
+        marker_76f3f63918ef179100cb05903efd36b1.bindPopup(popup_6699cbfbdc82610d557b62ee8649db18)
+        ;
+
+        
+    
+    
+                marker_76f3f63918ef179100cb05903efd36b1.setIcon(icon_dfe0a9b53752f25cf4b7d5b5061fccce);
+            
+    
+            var marker_f7f4b969655e145d224886fde9b918d1 = L.marker(
+                [10.9545, 76.9873],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_9a89a179eb97b27c4ac4ca61bf39dd5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70a9cc3c43ecc62df964ae2a5e0b87fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12255ae90267770d7ba14f412e22a4a7 = $(`<div id="html_12255ae90267770d7ba14f412e22a4a7" style="width: 100.0%; height: 100.0%;">Fraud at Podanur, Coimbatore</div>`)[0];
+                popup_70a9cc3c43ecc62df964ae2a5e0b87fc.setContent(html_12255ae90267770d7ba14f412e22a4a7);
+            
+        
+
+        marker_f7f4b969655e145d224886fde9b918d1.bindPopup(popup_70a9cc3c43ecc62df964ae2a5e0b87fc)
+        ;
+
+        
+    
+    
+                marker_f7f4b969655e145d224886fde9b918d1.setIcon(icon_9a89a179eb97b27c4ac4ca61bf39dd5f);
+            
+    
+            var marker_c12ba7c7ef399dc9e59caf41d50203a3 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_7cad16645752bf474d5b33727d5e8044 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_390b0889f06c1c299cd68c0eaca15e85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ebe2136c7182a5cb8f8af775be834ad = $(`<div id="html_4ebe2136c7182a5cb8f8af775be834ad" style="width: 100.0%; height: 100.0%;">Car Theft at Gandhipuram, Coimbatore</div>`)[0];
+                popup_390b0889f06c1c299cd68c0eaca15e85.setContent(html_4ebe2136c7182a5cb8f8af775be834ad);
+            
+        
+
+        marker_c12ba7c7ef399dc9e59caf41d50203a3.bindPopup(popup_390b0889f06c1c299cd68c0eaca15e85)
+        ;
+
+        
+    
+    
+                marker_c12ba7c7ef399dc9e59caf41d50203a3.setIcon(icon_7cad16645752bf474d5b33727d5e8044);
+            
+    
+            var marker_6cdbc2b49350afcbb77e14bc95466d7d = L.marker(
+                [11.0055, 76.9661],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_50b051c8178f3351d157f9857546070c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a20251343067734d752218291f4a7ae7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ebd3058234c0832940918c4ce95a1c8 = $(`<div id="html_9ebd3058234c0832940918c4ce95a1c8" style="width: 100.0%; height: 100.0%;">Domestic Violence at RS Puram, Coimbatore</div>`)[0];
+                popup_a20251343067734d752218291f4a7ae7.setContent(html_9ebd3058234c0832940918c4ce95a1c8);
+            
+        
+
+        marker_6cdbc2b49350afcbb77e14bc95466d7d.bindPopup(popup_a20251343067734d752218291f4a7ae7)
+        ;
+
+        
+    
+    
+                marker_6cdbc2b49350afcbb77e14bc95466d7d.setIcon(icon_50b051c8178f3351d157f9857546070c);
+            
+    
+            var marker_c2f7da614dd72e11dd6783fd76d42a58 = L.marker(
+                [11.0283, 77.0228],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_06d8a8f80154415a2512c4fa5bb82583 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39de2ecdfb0915fc3d65b03061deb7f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c0a3a022310a284cb5100c8376162c = $(`<div id="html_10c0a3a022310a284cb5100c8376162c" style="width: 100.0%; height: 100.0%;">Hacking at Peelamedu, Coimbatore</div>`)[0];
+                popup_39de2ecdfb0915fc3d65b03061deb7f2.setContent(html_10c0a3a022310a284cb5100c8376162c);
+            
+        
+
+        marker_c2f7da614dd72e11dd6783fd76d42a58.bindPopup(popup_39de2ecdfb0915fc3d65b03061deb7f2)
+        ;
+
+        
+    
+    
+                marker_c2f7da614dd72e11dd6783fd76d42a58.setIcon(icon_06d8a8f80154415a2512c4fa5bb82583);
+            
+    
+            var marker_3bc959ee18b2014a5853c0809bf48e68 = L.marker(
+                [10.9917, 76.9495],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_d684ac8f8ded369d7416d3ed6464a71c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_338cb1a785a0366b535c6523dd173a32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e61221d55bcf76f9b75f2f683f40a317 = $(`<div id="html_e61221d55bcf76f9b75f2f683f40a317" style="width: 100.0%; height: 100.0%;">Forgery at Ukkadam, Coimbatore</div>`)[0];
+                popup_338cb1a785a0366b535c6523dd173a32.setContent(html_e61221d55bcf76f9b75f2f683f40a317);
+            
+        
+
+        marker_3bc959ee18b2014a5853c0809bf48e68.bindPopup(popup_338cb1a785a0366b535c6523dd173a32)
+        ;
+
+        
+    
+    
+                marker_3bc959ee18b2014a5853c0809bf48e68.setIcon(icon_d684ac8f8ded369d7416d3ed6464a71c);
+            
+    
+            var marker_808345ff7fcbe6410c63ff13b0eba6bd = L.marker(
+                [11.0078, 76.9733],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_8ff38fde37ee139510523c7cfd6ce666 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c20e73c3bb9726cb92ef9129fdb15a3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74988911207edea2ad35f84299099c73 = $(`<div id="html_74988911207edea2ad35f84299099c73" style="width: 100.0%; height: 100.0%;">Illegal Gambling at Race Course, Coimbatore</div>`)[0];
+                popup_c20e73c3bb9726cb92ef9129fdb15a3c.setContent(html_74988911207edea2ad35f84299099c73);
+            
+        
+
+        marker_808345ff7fcbe6410c63ff13b0eba6bd.bindPopup(popup_c20e73c3bb9726cb92ef9129fdb15a3c)
+        ;
+
+        
+    
+    
+                marker_808345ff7fcbe6410c63ff13b0eba6bd.setIcon(icon_8ff38fde37ee139510523c7cfd6ce666);
+            
+    
+            var marker_a12b0dfdaff5457c8d152c1609e9b5fe = L.marker(
+                [11.0895, 76.9983],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_eb5988d737b8d4ceafb3ab39a7a525d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9500444e34cf3bca884ac842c06591d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3329ddc2635114a24c8aa2d9c8a0c02a = $(`<div id="html_3329ddc2635114a24c8aa2d9c8a0c02a" style="width: 100.0%; height: 100.0%;">Vandalism at Saravanampatti, Coimbatore</div>`)[0];
+                popup_9500444e34cf3bca884ac842c06591d6.setContent(html_3329ddc2635114a24c8aa2d9c8a0c02a);
+            
+        
+
+        marker_a12b0dfdaff5457c8d152c1609e9b5fe.bindPopup(popup_9500444e34cf3bca884ac842c06591d6)
+        ;
+
+        
+    
+    
+                marker_a12b0dfdaff5457c8d152c1609e9b5fe.setIcon(icon_eb5988d737b8d4ceafb3ab39a7a525d3);
+            
+    
+            var marker_3f744d7697c0dc721f44a50469db4494 = L.marker(
+                [10.9295, 76.9355],
+                {
+}
+            ).addTo(map_67b6e2d48710e679290c1222d28df19c);
+        
+    
+            var icon_b86c2ba5dc1de13717823d65f5446fef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85725a5e0b8f693660a948875e10f86a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27aac4e5886136580caadbcf85fb4607 = $(`<div id="html_27aac4e5886136580caadbcf85fb4607" style="width: 100.0%; height: 100.0%;">Drunk Driving at Kovaipudur, Coimbatore</div>`)[0];
+                popup_85725a5e0b8f693660a948875e10f86a.setContent(html_27aac4e5886136580caadbcf85fb4607);
+            
+        
+
+        marker_3f744d7697c0dc721f44a50469db4494.bindPopup(popup_85725a5e0b8f693660a948875e10f86a)
+        ;
+
+        
+    
+    
+                marker_3f744d7697c0dc721f44a50469db4494.setIcon(icon_b86c2ba5dc1de13717823d65f5446fef);
+            
+</script>
+</html>
