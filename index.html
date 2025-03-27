@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crime Prediction</title>
+</head>
+<body>
+    <h2>Crime Heatmap</h2>
+    <iframe src="crime_map.html" width="800" height="500"></iframe>
+
+    <h2>Predicted Crime Trends</h2>
+    <table border="1">
+        <tr>
+            <th>Date</th>
+            <th>Predicted Crime Count</th>
+        </tr>
+        {% for i in range(future_dates|length) %}
+        <tr>
+            <td>{{ future_dates[i].strftime("%Y-%m-%d") }}</td>
+            <td>{{ predictions[i] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Crime Trend Graph</h2>
+    <img src="{{ url_for('static', filename='crime_prediction.png') }}" alt="Crime Prediction Graph">
+</body>
+</html>
